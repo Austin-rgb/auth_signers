@@ -198,6 +198,7 @@ checksum = "37c93d8daa9d8a012fd8ab92f088405fb202ea0b6ab73ee2482ae66af4f42091"
 [[package]]
 name = "libsigners"
 version = "0.1.0"
+source = "git+https://github.com/Austin-rgb/libsigners#6790b1e4b4e3ba2c533a40925303db50641e085a"
 dependencies = [
  "anyhow",
  "chrono",
