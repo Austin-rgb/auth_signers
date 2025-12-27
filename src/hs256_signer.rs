@@ -4,7 +4,7 @@ use std::env;
 use std::sync::Arc;
 mod signer_core;
 use signer_core::{Signer, run_server};
-use auth_middleware::common::Claims;
+use libsigners::Claims;
 
 struct HS256Signer {
     secret: String,

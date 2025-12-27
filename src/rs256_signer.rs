@@ -2,7 +2,7 @@ use anyhow::Result;
 use jsonwebtoken::{encode, decode, Header, Validation, EncodingKey, DecodingKey, Algorithm};
 use std::env;
 use std::sync::Arc;
-use auth_middleware::common::Claims;
+use libsigners::Claims;
 mod signer_core;
 use signer_core::{Signer, run_server};
 
